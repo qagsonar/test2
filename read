@@ -5,6 +5,11 @@ error: file not found: f2.java
 Usage: javac <options> <source files>
 use --help for a list of possible options
 
+INFO: Sensor JavaScript analysis [javascript]
+ERROR: INFO: Could not find files for the given pattern(s).
+ERROR: Node.js not found in PATH. PATH value was: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\openjdk-19.0.2_windows-x64_bin\jdk-19.0.2\bin;C:\Program Files\jdk-11.0.2\bin;C:\Program Files\Git\cmd;D:\sonar-scanner-cli-4.8.0.2856-windows\sonar-scanner-4.8.0.2856-windows\bin;C:\Users\41857\AppData\Local\Microsoft\WindowsApps;
+org.sonarsource.nodejs.NodeCommandException: Node.js not found in PATH. PATH value was: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\openjdk-19.0.2_windows-x64_bin\jdk-19.0.2\bin;C:\Program Files\jdk-11.0.2\bin;C:\Program Files\Git\cmd;D:\sonar-scanner-cli-4.8.0.2856-windows\sonar-scanner-4.8.0.2856-windows\bin;C:\Users\41857\AppData\Local\Microsoft\WindowsApps;
+
 ERROR: INFO: Could not find files for the given pattern(s).
 ERROR: Node.js not found in PATH. PATH value was: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\openjdk-19.0.2_windows-x64_bin\jdk-19.0.2\bin;C:\Program Files\jdk-11.0.2\bin;C:\Program Files\Git\cmd;D:\sonar-scanner-cli-4.8.0.2856-windows\sonar-scanner-4.8.0.2856-windows\bin;C:\Users\41857\AppData\Local\Microsoft\WindowsApps;
 
