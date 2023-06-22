@@ -1,6 +1,9 @@
 sonar-scanner -Dsonar.login=squ_487de307a573f86d2b032e245736a727e27f18ba -Dsonar.projectKey=test4 -X -Dsonar.sources=C:\path -Dsonar.config.path=D:\sonarqube-9.8.0.63668\sonarqube-9.8.0.63668\conf/sonar.properties
 sonar-scanner -Dsonar.login=squ_487de307a573f86d2b032e245736a727e27f18ba -Dsonar.projectKey=test4 -X -Dsonar.sources=C:\path -Dsonar.config.path=D:\sonarqube-9.8.0.63668\sonarqube-9.8.0.63668\conf\sonar.properties
-
+javac f2.java
+error: file not found: f2.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
 
 11:36:44.441 INFO: Load active rules
 11:36:44.472 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RpQ9WKlF9Y2yyMm6&ps=500&p=1 | time=31ms
