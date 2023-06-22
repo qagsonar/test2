@@ -5,6 +5,9 @@ error: file not found: f2.java
 Usage: javac <options> <source files>
 use --help for a list of possible options
 
+ERROR: INFO: Could not find files for the given pattern(s).
+ERROR: Node.js not found in PATH. PATH value was: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\openjdk-19.0.2_windows-x64_bin\jdk-19.0.2\bin;C:\Program Files\jdk-11.0.2\bin;C:\Program Files\Git\cmd;D:\sonar-scanner-cli-4.8.0.2856-windows\sonar-scanner-4.8.0.2856-windows\bin;C:\Users\41857\AppData\Local\Microsoft\WindowsApps;
+
 11:36:44.441 INFO: Load active rules
 11:36:44.472 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RpQ9WKlF9Y2yyMm6&ps=500&p=1 | time=31ms
 11:36:44.675 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RpiVWKlF9Y2yyMn4&ps=500&p=1 | time=31ms
