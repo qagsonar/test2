@@ -1,1 +1,286 @@
 sonar-scanner -Dsonar.login=squ_487de307a573f86d2b032e245736a727e27f18ba -Dsonar.projectKey=test4 -X -Dsonar.sources=C:\path -Dsonar.config.path=D:\sonarqube-9.8.0.63668\sonarqube-9.8.0.63668\conf/sonar.properties
+
+
+
+sonar-scanner -Dsonar.login=squ_487de307a573f86d2b032e245736a727e27f18ba -Dsonar.projectKey=test4 -X -Dsonar.sources=C:\path -Dsonar.config.path=D:\sonarqube-9.8.0.63668\sonarqube-9.8.0.63668\conf/sonar.properties
+10:25:59.972 INFO: Scanner configuration file: D:\sonar-scanner-cli-4.8.0.2856-windows\sonar-scanner-4.8.0.2856-windows\bin\..\conf\sonar-scanner.properties
+10:25:59.972 INFO: Project root configuration file: NONE
+10:26:00.019 INFO: SonarScanner 4.8.0.2856
+10:26:00.019 INFO: Java 11.0.17 Eclipse Adoptium (64-bit)
+10:26:00.019 INFO: Windows Server 2019 10.0 amd64
+10:26:00.222 DEBUG: keyStore is :
+10:26:00.238 DEBUG: keyStore type is : pkcs12
+10:26:00.238 DEBUG: keyStore provider is :
+10:26:00.238 DEBUG: init keystore
+10:26:00.238 DEBUG: init keymanager of type SunX509
+10:26:00.816 DEBUG: Create: C:\Users\41857\.sonar\cache
+10:26:00.816 INFO: User cache: C:\Users\41857\.sonar\cache
+10:26:00.816 DEBUG: Create: C:\Users\41857\.sonar\cache\_tmp
+10:26:00.832 DEBUG: Extract sonar-scanner-api-batch in temp...
+10:26:00.847 DEBUG: Get bootstrap index...
+10:26:00.847 DEBUG: Download: http://localhost:9000/batch/index
+10:26:00.926 DEBUG: Get bootstrap completed
+10:26:00.941 DEBUG: Create isolated classloader...
+10:26:00.941 DEBUG: Start temp cleaning...
+10:26:00.957 DEBUG: Temp cleaning done
+10:26:00.957 DEBUG: Execution getVersion
+10:26:00.988 INFO: Analyzing on SonarQube server 9.8.0.63668
+10:26:00.988 INFO: Default locale: "en_IN", source code encoding: "windows-1252" (analysis is platform dependent)
+10:26:00.988 DEBUG: Work directory: C:\Users\41857\.scannerwork
+10:26:01.004 DEBUG: Execution execute
+10:26:01.738 DEBUG: Community 9.8.0.63668
+10:26:02.066 INFO: Load global settings
+10:26:02.129 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf | time=63ms
+10:26:02.176 INFO: Load global settings (done) | time=110ms
+10:26:02.176 INFO: Server id: E176CC90-AYe-Rg_-WKlF9Y2yyETQ
+10:26:02.191 INFO: User cache: C:\Users\41857\.sonar\cache
+10:26:02.191 INFO: Load/download plugins
+10:26:02.191 INFO: Load plugins index
+10:26:02.207 DEBUG: GET 200 http://localhost:9000/api/plugins/installed | time=16ms
+10:26:02.269 INFO: Load plugins index (done) | time=78ms
+10:26:02.426 INFO: Load/download plugins (done) | time=235ms
+10:26:02.519 DEBUG: Plugins:
+10:26:02.519 DEBUG:   * Python Code Quality and Security 3.21.0.10628 (python)
+10:26:02.519 DEBUG:   * Go Code Quality and Security 1.11.0.3905 (go)
+10:26:02.519 DEBUG:   * JaCoCo 1.1.1.1157 (jacoco)
+10:26:02.519 DEBUG:   * Kotlin Code Quality and Security 2.12.0.1956 (kotlin)
+10:26:02.519 DEBUG:   * IaC Code Quality and Security 1.9.2.2279 (iac)
+10:26:02.519 DEBUG:   * JavaScript/TypeScript/CSS Code Quality and Security 9.12.0.20319 (javascript)
+10:26:02.535 DEBUG:   * Ruby Code Quality and Security 1.11.0.3905 (ruby)
+10:26:02.535 DEBUG:   * Scala Code Quality and Security 1.11.0.3905 (sonarscala)
+10:26:02.535 DEBUG:   * C# Code Quality and Security 8.50.0.58025 (csharp)
+10:26:02.535 DEBUG:   * Java Code Quality and Security 7.15.0.30507 (java)
+10:26:02.535 DEBUG:   * HTML Code Quality and Security 3.7.1.3306 (web)
+10:26:02.535 DEBUG:   * Flex Code Quality and Security 2.8.0.3166 (flex)
+10:26:02.535 DEBUG:   * XML Code Quality and Security 2.6.1.3686 (xml)
+10:26:02.535 DEBUG:   * PHP Code Quality and Security 3.25.0.9077 (php)
+10:26:02.535 DEBUG:   * Text file Code Quality and Security 1.2.0.510 (text)
+10:26:02.535 DEBUG:   * VB.NET Code Quality and Security 8.50.0.58025 (vbnet)
+10:26:02.535 DEBUG:   * Configuration detection fot Code Quality and Security 1.2.0.267 (config)
+10:26:03.223 INFO: Process project properties
+10:26:03.238 INFO: Process project properties (done) | time=15ms
+10:26:03.238 INFO: Execute project builders
+10:26:03.238 DEBUG: Execute project builder: org.sonar.plugins.csharp.CSharpGlobalProtobufFileProcessor
+10:26:03.254 DEBUG: Execute project builder: org.sonar.plugins.vbnet.VbNetGlobalProtobufFileProcessor
+10:26:03.254 INFO: Execute project builders (done) | time=16ms
+10:26:03.269 INFO: Project key: test4
+10:26:03.269 INFO: Base dir: C:\Users\41857
+10:26:03.269 INFO: Working dir: C:\Users\41857\.scannerwork
+10:26:03.269 DEBUG: Project global encoding: windows-1252, default locale: en_IN
+10:26:03.285 INFO: Load project settings for component key: 'test4'
+10:26:03.316 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf?component=test4 | time=31ms
+10:26:03.316 INFO: Load project settings for component key: 'test4' (done) | time=31ms
+10:26:03.457 DEBUG: Creating module hierarchy
+10:26:03.457 DEBUG:   Init module 'test4'
+10:26:03.457 DEBUG:     Base dir: C:\Users\41857
+10:26:03.457 DEBUG:     Working dir: C:\Users\41857\.scannerwork
+10:26:03.457 DEBUG:     Module global encoding: windows-1252, default locale: en_IN
+10:26:03.488 DEBUG: Available languages:
+10:26:03.488 DEBUG:   * Python => "py"
+10:26:03.488 DEBUG:   * Go => "go"
+10:26:03.488 DEBUG:   * Kotlin => "kotlin"
+10:26:03.488 DEBUG:   * Terraform => "terraform"
+10:26:03.488 DEBUG:   * CloudFormation => "cloudformation"
+10:26:03.488 DEBUG:   * Kubernetes => "kubernetes"
+10:26:03.488 DEBUG:   * JavaScript => "js"
+10:26:03.488 DEBUG:   * TypeScript => "ts"
+10:26:03.488 DEBUG:   * CSS => "css"
+10:26:03.488 DEBUG:   * Ruby => "ruby"
+10:26:03.488 DEBUG:   * Scala => "scala"
+10:26:03.488 DEBUG:   * C# => "cs"
+10:26:03.504 DEBUG:   * Java => "java"
+10:26:03.504 DEBUG:   * HTML => "web"
+10:26:03.504 DEBUG:   * JSP => "jsp"
+10:26:03.504 DEBUG:   * Flex => "flex"
+10:26:03.504 DEBUG:   * XML => "xml"
+10:26:03.504 DEBUG:   * PHP => "php"
+10:26:03.504 DEBUG:   * Text => "text"
+10:26:03.504 DEBUG:   * VB.NET => "vbnet"
+10:26:03.504 DEBUG:   * YAML => "yaml"
+10:26:03.519 DEBUG:   * JSON => "json"
+10:26:03.535 DEBUG: SCM Step is disabled by configuration
+10:26:03.551 INFO: Load quality profiles
+10:26:03.582 DEBUG: GET 200 http://localhost:9000/api/qualityprofiles/search.protobuf?project=test4 | time=31ms
+10:26:03.598 INFO: Load quality profiles (done) | time=47ms
+10:26:03.613 INFO: Load active rules
+10:26:03.629 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RpQ9WKlF9Y2yyMm6&ps=500&p=1 | time=16ms
+10:26:03.832 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RpiVWKlF9Y2yyMn4&ps=500&p=1 | time=16ms
+10:26:03.910 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RplAWKlF9Y2yyMpV&ps=500&p=1 | time=62ms
+10:26:03.926 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-Rpo1WKlF9Y2yyMp1&ps=500&p=1 | time=16ms
+10:26:03.941 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RpusWKlF9Y2yyMvV&ps=500&p=1 | time=15ms
+10:26:04.004 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RpsAWKlF9Y2yyMs8&ps=500&p=1 | time=47ms
+10:26:04.144 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RpxIWKlF9Y2yyM2y&ps=500&p=1 | time=110ms
+10:26:04.269 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-Rp1CWKlF9Y2yyNAP&ps=500&p=1 | time=93ms
+10:26:04.332 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-Rp4MWKlF9Y2yyNEM&ps=500&p=1 | time=31ms
+10:26:04.457 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-Rp6xWKlF9Y2yyNM_&ps=500&p=1 | time=125ms
+10:26:04.660 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqFAWKlF9Y2yyNgc&ps=500&p=1 | time=187ms
+10:26:04.723 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqOSWKlF9Y2yyNo0&ps=500&p=1 | time=16ms
+10:26:04.754 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqVsWKlF9Y2yyNsC&ps=500&p=1 | time=31ms
+10:26:04.785 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqS7WKlF9Y2yyNqD&ps=500&p=1 | time=15ms
+10:26:04.801 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqXXWKlF9Y2yyNsz&ps=500&p=1 | time=16ms
+10:26:04.895 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqYDWKlF9Y2yyNzF&ps=500&p=1 | time=94ms
+10:26:04.941 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqaqWKlF9Y2yyN3h&ps=500&p=1 | time=46ms
+10:26:04.988 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqcIWKlF9Y2yyN4W&ps=500&p=1 | time=31ms
+10:26:05.051 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-Rqd2WKlF9Y2yyN8X&ps=500&p=1 | time=63ms
+10:26:05.082 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqfvWKlF9Y2yyN_G&ps=500&p=1 | time=31ms
+10:26:05.191 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqiIWKlF9Y2yyOGS&ps=500&p=1 | time=109ms
+10:26:05.254 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqhRWKlF9Y2yyN_i&ps=500&p=1 | time=47ms
+10:26:05.285 INFO: Load active rules (done) | time=1672ms
+10:26:05.301 INFO: Load analysis cache
+10:26:05.316 DEBUG: GET 404 http://localhost:9000/api/analysis_cache/get?project=test4 | time=15ms
+10:26:05.316 INFO: Load analysis cache (404) | time=15ms
+10:26:05.395 INFO: Load project repositories
+10:26:05.395 DEBUG: GET 200 http://localhost:9000/batch/project.protobuf?key=test4 | time=0ms
+10:26:05.426 INFO: Load project repositories (done) | time=31ms
+10:26:05.441 DEBUG: Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
+10:26:05.457 DEBUG: Declared extensions of language Go were converted to sonar.lang.patterns.go : **/*.go
+10:26:05.457 DEBUG: Declared extensions of language Kotlin were converted to sonar.lang.patterns.kotlin : **/*.kt
+10:26:05.457 DEBUG: Declared extensions of language Terraform were converted to sonar.lang.patterns.terraform : **/*.tf
+10:26:05.457 DEBUG: Declared extensions of language CloudFormation were converted to sonar.lang.patterns.cloudformation :
+10:26:05.457 DEBUG: Declared extensions of language Kubernetes were converted to sonar.lang.patterns.kubernetes :
+10:26:05.457 DEBUG: Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.cjs,**/*.mjs,**/*.vue
+10:26:05.457 DEBUG: Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx,**/*.cts,**/*.mts
+10:26:05.457 DEBUG: Declared extensions of language CSS were converted to sonar.lang.patterns.css : **/*.css,**/*.less,**/*.scss
+10:26:05.457 DEBUG: Declared extensions of language Ruby were converted to sonar.lang.patterns.ruby : **/*.rb
+10:26:05.457 DEBUG: Declared extensions of language Scala were converted to sonar.lang.patterns.scala : **/*.scala
+10:26:05.457 DEBUG: Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
+10:26:05.457 DEBUG: Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+10:26:05.473 DEBUG: Declared extensions of language HTML were converted to sonar.lang.patterns.web : **/*.html,**/*.xhtml,**/*.cshtml,**/*.vbhtml,**/*.aspx,**/*.ascx,**/*.rhtml,**/*.erb,**/*.shtm,**/*.shtml,**/*.cmp,**/*.twig
+10:26:05.473 DEBUG: Declared extensions of language JSP were converted to sonar.lang.patterns.jsp : **/*.jsp,**/*.jspf,**/*.jspx
+10:26:05.473 DEBUG: Declared extensions of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+10:26:05.473 DEBUG: Declared extensions of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl
+10:26:05.473 DEBUG: Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+10:26:05.473 DEBUG: Declared extensions of language Text were converted to sonar.lang.patterns.text : **/*.sonarshouldnotexistextension
+10:26:05.473 DEBUG: Declared extensions of language VB.NET were converted to sonar.lang.patterns.vbnet : **/*.vb
+10:26:05.488 DEBUG: Declared extensions of language YAML were converted to sonar.lang.patterns.yaml : **/*.yaml,**/*.yml
+10:26:05.488 DEBUG: Declared extensions of language JSON were converted to sonar.lang.patterns.json : **/*.json
+10:26:05.504 DEBUG: Will ignore generated code
+10:26:05.520 DEBUG: Will ignore generated code
+10:26:05.520 INFO: Indexing files...
+10:26:05.520 INFO: Project configuration:
+10:26:05.535 WARN: File 'C:\path\test\f2.java.txt' is ignored. It is not located in project basedir 'C:\Users\41857'.
+10:26:05.551 INFO: 0 files indexed
+10:26:05.551 INFO: ------------- Run sensors on module test4
+10:26:05.691 INFO: Load metrics repository
+10:26:05.691 DEBUG: GET 200 http://localhost:9000/api/metrics/search?ps=500&p=1 | time=0ms
+10:26:05.723 INFO: Load metrics repository (done) | time=32ms
+10:26:07.942 DEBUG: 'JavaSensor' skipped because there is no related file in current project
+10:26:07.942 DEBUG: 'Import external issues report' skipped because one of the required properties is missing
+10:26:07.942 DEBUG: 'Import external issues report from SARIF file.' skipped because one of the required properties is missing
+10:26:07.957 DEBUG: 'Python Sensor' skipped because there is no related file in current project
+10:26:07.957 DEBUG: 'Cobertura Sensor for Python coverage' skipped because there is no related file in current project
+10:26:07.957 DEBUG: 'PythonXUnitSensor' skipped because there is no related file in current project
+10:26:07.957 DEBUG: 'Import of Pylint issues' skipped because there is no related file in current project
+10:26:07.957 DEBUG: 'Import of Bandit issues' skipped because there is no related file in current project
+10:26:07.957 DEBUG: 'Import of Flake8 issues' skipped because there is no related file in current project
+10:26:07.957 DEBUG: 'Code Quality and Security for Go' skipped because there is no related file in current project
+10:26:07.957 DEBUG: 'Go Unit Test Report' skipped because there is no related file in current project
+10:26:07.957 DEBUG: 'Go Cover sensor for Go coverage' skipped because one of the required properties is missing
+10:26:07.957 DEBUG: 'Import of go vet issues' skipped because there is no related file in current project
+10:26:07.957 DEBUG: 'Import of Golint issues' skipped because there is no related file in current project
+10:26:07.957 DEBUG: 'Import of GoMetaLinter issues' skipped because there is no related file in current project
+10:26:07.957 DEBUG: 'Import of GolangCI-Lint issues' skipped because there is no related file in current project
+10:26:07.957 DEBUG: 'Kotlin Sensor' skipped because there is no related file in current project
+10:26:07.957 DEBUG: 'KotlinSurefireSensor' skipped because there is no related file in current project
+10:26:07.973 DEBUG: 'Import of detekt issues' skipped because there is no related file in current project
+10:26:07.973 DEBUG: 'Import of Android Lint issues' skipped because one of the required properties is missing
+10:26:07.973 DEBUG: 'Import of ktlint issues' skipped because there is no related file in current project
+10:26:07.973 DEBUG: 'IaC Terraform Sensor' skipped because there is no related file in current project
+10:26:07.973 DEBUG: 'IaC CloudFormation Sensor' skipped because there is no related file in current project
+10:26:07.973 DEBUG: 'IaC Kubernetes Sensor' skipped because there is no related file in current project
+10:26:07.973 DEBUG: 'JavaScript analysis' skipped because there is no related file in current project
+10:26:07.973 DEBUG: 'TypeScript analysis' skipped because there is no related file in current project
+10:26:07.973 DEBUG: 'JavaScript inside YAML analysis' skipped because there is no related file in current project
+10:26:07.973 DEBUG: 'JavaScript/TypeScript Coverage' skipped because there is no related file in current project
+10:26:07.973 DEBUG: 'Import of ESLint issues' skipped because one of the required properties is missing
+10:26:07.973 DEBUG: 'Import of TSLint issues' skipped because one of the required properties is missing
+10:26:07.988 DEBUG: 'CSS Metrics' skipped because there is no related file in current project
+10:26:07.988 DEBUG: 'Import of stylelint issues' skipped because there is no related file in current project
+10:26:07.988 DEBUG: 'Ruby Sensor' skipped because there is no related file in current project
+10:26:07.988 DEBUG: 'Import of RuboCop issues' skipped because there is no related file in current project
+10:26:07.988 DEBUG: 'SimpleCov Sensor for Ruby coverage' skipped because there is no related file in current project
+10:26:07.988 DEBUG: 'Scala Sensor' skipped because there is no related file in current project
+10:26:07.988 DEBUG: 'Scoverage sensor for Scala coverage' skipped because there is no related file in current project
+10:26:07.988 DEBUG: 'Import of Scalastyle issues' skipped because there is no related file in current project
+10:26:07.988 DEBUG: 'Import of Scapegoat issues' skipped because there is no related file in current project
+10:26:07.988 DEBUG: 'Import of Checkstyle issues' skipped because there is no related file in current project
+10:26:07.988 DEBUG: 'Import of PMD issues' skipped because one of the required properties is missing
+10:26:07.988 DEBUG: 'Import of SpotBugs issues' skipped because there is no related file in current project
+10:26:07.988 DEBUG: 'SurefireSensor' skipped because there is no related file in current project
+10:26:07.988 DEBUG: 'Removed properties sensor' skipped because there is no related file in current project
+10:26:08.004 DEBUG: 'HTML' skipped because there is no related file in current project
+10:26:08.004 DEBUG: 'Flex' skipped because there is no related file in current project
+10:26:08.004 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
+10:26:08.004 DEBUG: 'XML Sensor' skipped because there is no related file in current project
+10:26:08.004 DEBUG: 'PHP sensor' skipped because there is no related file in current project
+10:26:08.004 DEBUG: 'Analyzer for "php.ini" files' skipped because there is no related file in current project
+10:26:08.004 DEBUG: 'Import of PHPStan issues' skipped because there is no related file in current project
+10:26:08.004 DEBUG: 'Import of Psalm issues' skipped because there is no related file in current project
+10:26:08.020 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+10:26:08.020 DEBUG: Sensors : JaCoCo XML Report Importer -> CSS Rules -> C# Project Type Information -> C# Analysis Log -> C# Properties -> Text Sensor -> VB.NET Project Type Information -> VB.NET Analysis Log -> VB.NET Properties
+10:26:08.020 INFO: Sensor JaCoCo XML Report Importer [jacoco]
+10:26:08.035 INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+10:26:08.035 INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+10:26:08.035 INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=15ms
+10:26:08.035 INFO: Sensor CSS Rules [javascript]
+10:26:08.035 INFO: No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+10:26:08.035 INFO: Sensor CSS Rules [javascript] (done) | time=0ms
+10:26:08.035 INFO: Sensor C# Project Type Information [csharp]
+10:26:08.051 INFO: Sensor C# Project Type Information [csharp] (done) | time=0ms
+10:26:08.051 INFO: Sensor C# Analysis Log [csharp]
+10:26:08.067 DEBUG: Project 'test4': Property missing: 'sonar.cs.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+10:26:08.067 INFO: Sensor C# Analysis Log [csharp] (done) | time=16ms
+10:26:08.067 INFO: Sensor C# Properties [csharp]
+10:26:08.067 DEBUG: Project 'test4': Property missing: 'sonar.cs.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+10:26:08.067 DEBUG: Project 'test4': No Roslyn issues reports have been found.
+10:26:08.067 INFO: Sensor C# Properties [csharp] (done) | time=0ms
+10:26:08.067 INFO: Sensor Text Sensor [text]
+10:26:08.082 INFO: 0 source files to be analyzed
+10:26:08.082 INFO: 0/0 source files have been analyzed
+10:26:08.082 INFO: Sensor Text Sensor [text] (done) | time=15ms
+10:26:08.082 INFO: Sensor VB.NET Project Type Information [vbnet]
+10:26:08.082 INFO: Sensor VB.NET Project Type Information [vbnet] (done) | time=0ms
+10:26:08.082 INFO: Sensor VB.NET Analysis Log [vbnet]
+10:26:08.098 DEBUG: Project 'test4': Property missing: 'sonar.vbnet.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+10:26:08.098 INFO: Sensor VB.NET Analysis Log [vbnet] (done) | time=16ms
+10:26:08.098 INFO: Sensor VB.NET Properties [vbnet]
+10:26:08.098 DEBUG: Project 'test4': Property missing: 'sonar.vbnet.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+10:26:08.098 DEBUG: Project 'test4': No Roslyn issues reports have been found.
+10:26:08.098 INFO: Sensor VB.NET Properties [vbnet] (done) | time=0ms
+10:26:08.113 INFO: ------------- Run sensors on project
+10:26:08.176 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+10:26:08.192 DEBUG: 'C#' skipped because there is no related file in current project
+10:26:08.192 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+10:26:08.192 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+10:26:08.192 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
+10:26:08.192 DEBUG: 'VB.NET' skipped because there is no related file in current project
+10:26:08.192 DEBUG: 'VB.NET Tests Coverage Report Import' skipped because there is no related file in current project
+10:26:08.192 DEBUG: '[Deprecated] VB.NET Integration Tests Coverage Report Import' skipped because there is no related file in current project
+10:26:08.192 DEBUG: 'VB.NET Unit Test Results Import' skipped because there is no related file in current project
+10:26:08.192 DEBUG: 'Java CPD Block Indexer' skipped because there is no related file in current project
+10:26:08.192 DEBUG: Sensors : Analysis Warnings import -> Zero Coverage Sensor
+10:26:08.192 INFO: Sensor Analysis Warnings import [csharp]
+10:26:08.192 INFO: Sensor Analysis Warnings import [csharp] (done) | time=0ms
+10:26:08.192 INFO: Sensor Zero Coverage Sensor
+10:26:08.192 INFO: Sensor Zero Coverage Sensor (done) | time=0ms
+10:26:08.207 INFO: SCM Publisher is disabled
+10:26:08.207 INFO: CPD Executor Calculating CPD for 0 files
+10:26:08.207 INFO: CPD Executor CPD calculation finished (done) | time=0ms
+10:26:08.317 INFO: Analysis report generated in 110ms, dir size=120.9 kB
+10:26:08.363 INFO: Analysis report compressed in 46ms, zip size=14.3 kB
+10:26:08.363 INFO: Analysis report generated in C:\Users\41857\.scannerwork\scanner-report
+10:26:08.363 DEBUG: Upload report
+10:26:08.395 DEBUG: POST 200 http://localhost:9000/api/ce/submit?projectKey=test4 | time=32ms
+10:26:08.395 INFO: Analysis report uploaded in 32ms
+10:26:08.410 DEBUG: Report metadata written to C:\Users\41857\.scannerwork\report-task.txt
+10:26:08.410 INFO: ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=test4
+10:26:08.410 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+10:26:08.410 INFO: More about the report processing at http://localhost:9000/api/ce/task?id=AYjhdbe7-F0MSAvZGZIo
+10:26:08.410 DEBUG: Post-jobs :
+10:26:08.426 INFO: Analysis total time: 5.828 s
+10:26:08.426 INFO: ------------------------------------------------------------------------
+10:26:08.426 INFO: EXECUTION SUCCESS
+10:26:08.426 INFO: ------------------------------------------------------------------------
+10:26:08.426 INFO: Total time: 8.485s
+10:26:08.488 INFO: Final Memory: 16M/60M
+10:26:08.488 INFO: ------------------------------------------------------------------------
