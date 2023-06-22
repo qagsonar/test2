@@ -1,5 +1,5 @@
 sonar-scanner -Dsonar.login=squ_487de307a573f86d2b032e245736a727e27f18ba -Dsonar.projectKey=test4 -X -Dsonar.sources=C:\path -Dsonar.config.path=D:\sonarqube-9.8.0.63668\sonarqube-9.8.0.63668\conf/sonar.properties
-
+sonar-scanner -Dsonar.login=squ_487de307a573f86d2b032e245736a727e27f18ba -Dsonar.projectKey=test4 -X -Dsonar.sources=C:\path -Dsonar.config.path=D:\sonarqube-9.8.0.63668\sonarqube-9.8.0.63668\conf\sonar.properties
 
 
 sonar-scanner -Dsonar.login=squ_487de307a573f86d2b032e245736a727e27f18ba -Dsonar.projectKey=test4 -X -Dsonar.sources=C:\path -Dsonar.config.path=D:\sonarqube-9.8.0.63668\sonarqube-9.8.0.63668\conf/sonar.properties
