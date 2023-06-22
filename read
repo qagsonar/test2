@@ -2,285 +2,429 @@ sonar-scanner -Dsonar.login=squ_487de307a573f86d2b032e245736a727e27f18ba -Dsonar
 sonar-scanner -Dsonar.login=squ_487de307a573f86d2b032e245736a727e27f18ba -Dsonar.projectKey=test4 -X -Dsonar.sources=C:\path -Dsonar.config.path=D:\sonarqube-9.8.0.63668\sonarqube-9.8.0.63668\conf\sonar.properties
 
 
-sonar-scanner -Dsonar.login=squ_487de307a573f86d2b032e245736a727e27f18ba -Dsonar.projectKey=test4 -X -Dsonar.sources=C:\path -Dsonar.config.path=D:\sonarqube-9.8.0.63668\sonarqube-9.8.0.63668\conf/sonar.properties
-10:25:59.972 INFO: Scanner configuration file: D:\sonar-scanner-cli-4.8.0.2856-windows\sonar-scanner-4.8.0.2856-windows\bin\..\conf\sonar-scanner.properties
-10:25:59.972 INFO: Project root configuration file: NONE
-10:26:00.019 INFO: SonarScanner 4.8.0.2856
-10:26:00.019 INFO: Java 11.0.17 Eclipse Adoptium (64-bit)
-10:26:00.019 INFO: Windows Server 2019 10.0 amd64
-10:26:00.222 DEBUG: keyStore is :
-10:26:00.238 DEBUG: keyStore type is : pkcs12
-10:26:00.238 DEBUG: keyStore provider is :
-10:26:00.238 DEBUG: init keystore
-10:26:00.238 DEBUG: init keymanager of type SunX509
-10:26:00.816 DEBUG: Create: C:\Users\41857\.sonar\cache
-10:26:00.816 INFO: User cache: C:\Users\41857\.sonar\cache
-10:26:00.816 DEBUG: Create: C:\Users\41857\.sonar\cache\_tmp
-10:26:00.832 DEBUG: Extract sonar-scanner-api-batch in temp...
-10:26:00.847 DEBUG: Get bootstrap index...
-10:26:00.847 DEBUG: Download: http://localhost:9000/batch/index
-10:26:00.926 DEBUG: Get bootstrap completed
-10:26:00.941 DEBUG: Create isolated classloader...
-10:26:00.941 DEBUG: Start temp cleaning...
-10:26:00.957 DEBUG: Temp cleaning done
-10:26:00.957 DEBUG: Execution getVersion
-10:26:00.988 INFO: Analyzing on SonarQube server 9.8.0.63668
-10:26:00.988 INFO: Default locale: "en_IN", source code encoding: "windows-1252" (analysis is platform dependent)
-10:26:00.988 DEBUG: Work directory: C:\Users\41857\.scannerwork
-10:26:01.004 DEBUG: Execution execute
-10:26:01.738 DEBUG: Community 9.8.0.63668
-10:26:02.066 INFO: Load global settings
-10:26:02.129 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf | time=63ms
-10:26:02.176 INFO: Load global settings (done) | time=110ms
-10:26:02.176 INFO: Server id: E176CC90-AYe-Rg_-WKlF9Y2yyETQ
-10:26:02.191 INFO: User cache: C:\Users\41857\.sonar\cache
-10:26:02.191 INFO: Load/download plugins
-10:26:02.191 INFO: Load plugins index
-10:26:02.207 DEBUG: GET 200 http://localhost:9000/api/plugins/installed | time=16ms
-10:26:02.269 INFO: Load plugins index (done) | time=78ms
-10:26:02.426 INFO: Load/download plugins (done) | time=235ms
-10:26:02.519 DEBUG: Plugins:
-10:26:02.519 DEBUG:   * Python Code Quality and Security 3.21.0.10628 (python)
-10:26:02.519 DEBUG:   * Go Code Quality and Security 1.11.0.3905 (go)
-10:26:02.519 DEBUG:   * JaCoCo 1.1.1.1157 (jacoco)
-10:26:02.519 DEBUG:   * Kotlin Code Quality and Security 2.12.0.1956 (kotlin)
-10:26:02.519 DEBUG:   * IaC Code Quality and Security 1.9.2.2279 (iac)
-10:26:02.519 DEBUG:   * JavaScript/TypeScript/CSS Code Quality and Security 9.12.0.20319 (javascript)
-10:26:02.535 DEBUG:   * Ruby Code Quality and Security 1.11.0.3905 (ruby)
-10:26:02.535 DEBUG:   * Scala Code Quality and Security 1.11.0.3905 (sonarscala)
-10:26:02.535 DEBUG:   * C# Code Quality and Security 8.50.0.58025 (csharp)
-10:26:02.535 DEBUG:   * Java Code Quality and Security 7.15.0.30507 (java)
-10:26:02.535 DEBUG:   * HTML Code Quality and Security 3.7.1.3306 (web)
-10:26:02.535 DEBUG:   * Flex Code Quality and Security 2.8.0.3166 (flex)
-10:26:02.535 DEBUG:   * XML Code Quality and Security 2.6.1.3686 (xml)
-10:26:02.535 DEBUG:   * PHP Code Quality and Security 3.25.0.9077 (php)
-10:26:02.535 DEBUG:   * Text file Code Quality and Security 1.2.0.510 (text)
-10:26:02.535 DEBUG:   * VB.NET Code Quality and Security 8.50.0.58025 (vbnet)
-10:26:02.535 DEBUG:   * Configuration detection fot Code Quality and Security 1.2.0.267 (config)
-10:26:03.223 INFO: Process project properties
-10:26:03.238 INFO: Process project properties (done) | time=15ms
-10:26:03.238 INFO: Execute project builders
-10:26:03.238 DEBUG: Execute project builder: org.sonar.plugins.csharp.CSharpGlobalProtobufFileProcessor
-10:26:03.254 DEBUG: Execute project builder: org.sonar.plugins.vbnet.VbNetGlobalProtobufFileProcessor
-10:26:03.254 INFO: Execute project builders (done) | time=16ms
-10:26:03.269 INFO: Project key: test4
-10:26:03.269 INFO: Base dir: C:\Users\41857
-10:26:03.269 INFO: Working dir: C:\Users\41857\.scannerwork
-10:26:03.269 DEBUG: Project global encoding: windows-1252, default locale: en_IN
-10:26:03.285 INFO: Load project settings for component key: 'test4'
-10:26:03.316 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf?component=test4 | time=31ms
-10:26:03.316 INFO: Load project settings for component key: 'test4' (done) | time=31ms
-10:26:03.457 DEBUG: Creating module hierarchy
-10:26:03.457 DEBUG:   Init module 'test4'
-10:26:03.457 DEBUG:     Base dir: C:\Users\41857
-10:26:03.457 DEBUG:     Working dir: C:\Users\41857\.scannerwork
-10:26:03.457 DEBUG:     Module global encoding: windows-1252, default locale: en_IN
-10:26:03.488 DEBUG: Available languages:
-10:26:03.488 DEBUG:   * Python => "py"
-10:26:03.488 DEBUG:   * Go => "go"
-10:26:03.488 DEBUG:   * Kotlin => "kotlin"
-10:26:03.488 DEBUG:   * Terraform => "terraform"
-10:26:03.488 DEBUG:   * CloudFormation => "cloudformation"
-10:26:03.488 DEBUG:   * Kubernetes => "kubernetes"
-10:26:03.488 DEBUG:   * JavaScript => "js"
-10:26:03.488 DEBUG:   * TypeScript => "ts"
-10:26:03.488 DEBUG:   * CSS => "css"
-10:26:03.488 DEBUG:   * Ruby => "ruby"
-10:26:03.488 DEBUG:   * Scala => "scala"
-10:26:03.488 DEBUG:   * C# => "cs"
-10:26:03.504 DEBUG:   * Java => "java"
-10:26:03.504 DEBUG:   * HTML => "web"
-10:26:03.504 DEBUG:   * JSP => "jsp"
-10:26:03.504 DEBUG:   * Flex => "flex"
-10:26:03.504 DEBUG:   * XML => "xml"
-10:26:03.504 DEBUG:   * PHP => "php"
-10:26:03.504 DEBUG:   * Text => "text"
-10:26:03.504 DEBUG:   * VB.NET => "vbnet"
-10:26:03.504 DEBUG:   * YAML => "yaml"
-10:26:03.519 DEBUG:   * JSON => "json"
-10:26:03.535 DEBUG: SCM Step is disabled by configuration
-10:26:03.551 INFO: Load quality profiles
-10:26:03.582 DEBUG: GET 200 http://localhost:9000/api/qualityprofiles/search.protobuf?project=test4 | time=31ms
-10:26:03.598 INFO: Load quality profiles (done) | time=47ms
-10:26:03.613 INFO: Load active rules
-10:26:03.629 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RpQ9WKlF9Y2yyMm6&ps=500&p=1 | time=16ms
-10:26:03.832 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RpiVWKlF9Y2yyMn4&ps=500&p=1 | time=16ms
-10:26:03.910 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RplAWKlF9Y2yyMpV&ps=500&p=1 | time=62ms
-10:26:03.926 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-Rpo1WKlF9Y2yyMp1&ps=500&p=1 | time=16ms
-10:26:03.941 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RpusWKlF9Y2yyMvV&ps=500&p=1 | time=15ms
-10:26:04.004 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RpsAWKlF9Y2yyMs8&ps=500&p=1 | time=47ms
-10:26:04.144 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RpxIWKlF9Y2yyM2y&ps=500&p=1 | time=110ms
-10:26:04.269 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-Rp1CWKlF9Y2yyNAP&ps=500&p=1 | time=93ms
-10:26:04.332 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-Rp4MWKlF9Y2yyNEM&ps=500&p=1 | time=31ms
-10:26:04.457 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-Rp6xWKlF9Y2yyNM_&ps=500&p=1 | time=125ms
-10:26:04.660 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqFAWKlF9Y2yyNgc&ps=500&p=1 | time=187ms
-10:26:04.723 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqOSWKlF9Y2yyNo0&ps=500&p=1 | time=16ms
-10:26:04.754 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqVsWKlF9Y2yyNsC&ps=500&p=1 | time=31ms
-10:26:04.785 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqS7WKlF9Y2yyNqD&ps=500&p=1 | time=15ms
-10:26:04.801 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqXXWKlF9Y2yyNsz&ps=500&p=1 | time=16ms
-10:26:04.895 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqYDWKlF9Y2yyNzF&ps=500&p=1 | time=94ms
-10:26:04.941 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqaqWKlF9Y2yyN3h&ps=500&p=1 | time=46ms
-10:26:04.988 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqcIWKlF9Y2yyN4W&ps=500&p=1 | time=31ms
-10:26:05.051 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-Rqd2WKlF9Y2yyN8X&ps=500&p=1 | time=63ms
-10:26:05.082 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqfvWKlF9Y2yyN_G&ps=500&p=1 | time=31ms
-10:26:05.191 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqiIWKlF9Y2yyOGS&ps=500&p=1 | time=109ms
-10:26:05.254 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqhRWKlF9Y2yyN_i&ps=500&p=1 | time=47ms
-10:26:05.285 INFO: Load active rules (done) | time=1672ms
-10:26:05.301 INFO: Load analysis cache
-10:26:05.316 DEBUG: GET 404 http://localhost:9000/api/analysis_cache/get?project=test4 | time=15ms
-10:26:05.316 INFO: Load analysis cache (404) | time=15ms
-10:26:05.395 INFO: Load project repositories
-10:26:05.395 DEBUG: GET 200 http://localhost:9000/batch/project.protobuf?key=test4 | time=0ms
-10:26:05.426 INFO: Load project repositories (done) | time=31ms
-10:26:05.441 DEBUG: Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
-10:26:05.457 DEBUG: Declared extensions of language Go were converted to sonar.lang.patterns.go : **/*.go
-10:26:05.457 DEBUG: Declared extensions of language Kotlin were converted to sonar.lang.patterns.kotlin : **/*.kt
-10:26:05.457 DEBUG: Declared extensions of language Terraform were converted to sonar.lang.patterns.terraform : **/*.tf
-10:26:05.457 DEBUG: Declared extensions of language CloudFormation were converted to sonar.lang.patterns.cloudformation :
-10:26:05.457 DEBUG: Declared extensions of language Kubernetes were converted to sonar.lang.patterns.kubernetes :
-10:26:05.457 DEBUG: Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.cjs,**/*.mjs,**/*.vue
-10:26:05.457 DEBUG: Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx,**/*.cts,**/*.mts
-10:26:05.457 DEBUG: Declared extensions of language CSS were converted to sonar.lang.patterns.css : **/*.css,**/*.less,**/*.scss
-10:26:05.457 DEBUG: Declared extensions of language Ruby were converted to sonar.lang.patterns.ruby : **/*.rb
-10:26:05.457 DEBUG: Declared extensions of language Scala were converted to sonar.lang.patterns.scala : **/*.scala
-10:26:05.457 DEBUG: Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
-10:26:05.457 DEBUG: Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
-10:26:05.473 DEBUG: Declared extensions of language HTML were converted to sonar.lang.patterns.web : **/*.html,**/*.xhtml,**/*.cshtml,**/*.vbhtml,**/*.aspx,**/*.ascx,**/*.rhtml,**/*.erb,**/*.shtm,**/*.shtml,**/*.cmp,**/*.twig
-10:26:05.473 DEBUG: Declared extensions of language JSP were converted to sonar.lang.patterns.jsp : **/*.jsp,**/*.jspf,**/*.jspx
-10:26:05.473 DEBUG: Declared extensions of language Flex were converted to sonar.lang.patterns.flex : **/*.as
-10:26:05.473 DEBUG: Declared extensions of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl
-10:26:05.473 DEBUG: Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
-10:26:05.473 DEBUG: Declared extensions of language Text were converted to sonar.lang.patterns.text : **/*.sonarshouldnotexistextension
-10:26:05.473 DEBUG: Declared extensions of language VB.NET were converted to sonar.lang.patterns.vbnet : **/*.vb
-10:26:05.488 DEBUG: Declared extensions of language YAML were converted to sonar.lang.patterns.yaml : **/*.yaml,**/*.yml
-10:26:05.488 DEBUG: Declared extensions of language JSON were converted to sonar.lang.patterns.json : **/*.json
-10:26:05.504 DEBUG: Will ignore generated code
-10:26:05.520 DEBUG: Will ignore generated code
-10:26:05.520 INFO: Indexing files...
-10:26:05.520 INFO: Project configuration:
-10:26:05.535 WARN: File 'C:\path\test\f2.java.txt' is ignored. It is not located in project basedir 'C:\Users\41857'.
-10:26:05.551 INFO: 0 files indexed
-10:26:05.551 INFO: ------------- Run sensors on module test4
-10:26:05.691 INFO: Load metrics repository
-10:26:05.691 DEBUG: GET 200 http://localhost:9000/api/metrics/search?ps=500&p=1 | time=0ms
-10:26:05.723 INFO: Load metrics repository (done) | time=32ms
-10:26:07.942 DEBUG: 'JavaSensor' skipped because there is no related file in current project
-10:26:07.942 DEBUG: 'Import external issues report' skipped because one of the required properties is missing
-10:26:07.942 DEBUG: 'Import external issues report from SARIF file.' skipped because one of the required properties is missing
-10:26:07.957 DEBUG: 'Python Sensor' skipped because there is no related file in current project
-10:26:07.957 DEBUG: 'Cobertura Sensor for Python coverage' skipped because there is no related file in current project
-10:26:07.957 DEBUG: 'PythonXUnitSensor' skipped because there is no related file in current project
-10:26:07.957 DEBUG: 'Import of Pylint issues' skipped because there is no related file in current project
-10:26:07.957 DEBUG: 'Import of Bandit issues' skipped because there is no related file in current project
-10:26:07.957 DEBUG: 'Import of Flake8 issues' skipped because there is no related file in current project
-10:26:07.957 DEBUG: 'Code Quality and Security for Go' skipped because there is no related file in current project
-10:26:07.957 DEBUG: 'Go Unit Test Report' skipped because there is no related file in current project
-10:26:07.957 DEBUG: 'Go Cover sensor for Go coverage' skipped because one of the required properties is missing
-10:26:07.957 DEBUG: 'Import of go vet issues' skipped because there is no related file in current project
-10:26:07.957 DEBUG: 'Import of Golint issues' skipped because there is no related file in current project
-10:26:07.957 DEBUG: 'Import of GoMetaLinter issues' skipped because there is no related file in current project
-10:26:07.957 DEBUG: 'Import of GolangCI-Lint issues' skipped because there is no related file in current project
-10:26:07.957 DEBUG: 'Kotlin Sensor' skipped because there is no related file in current project
-10:26:07.957 DEBUG: 'KotlinSurefireSensor' skipped because there is no related file in current project
-10:26:07.973 DEBUG: 'Import of detekt issues' skipped because there is no related file in current project
-10:26:07.973 DEBUG: 'Import of Android Lint issues' skipped because one of the required properties is missing
-10:26:07.973 DEBUG: 'Import of ktlint issues' skipped because there is no related file in current project
-10:26:07.973 DEBUG: 'IaC Terraform Sensor' skipped because there is no related file in current project
-10:26:07.973 DEBUG: 'IaC CloudFormation Sensor' skipped because there is no related file in current project
-10:26:07.973 DEBUG: 'IaC Kubernetes Sensor' skipped because there is no related file in current project
-10:26:07.973 DEBUG: 'JavaScript analysis' skipped because there is no related file in current project
-10:26:07.973 DEBUG: 'TypeScript analysis' skipped because there is no related file in current project
-10:26:07.973 DEBUG: 'JavaScript inside YAML analysis' skipped because there is no related file in current project
-10:26:07.973 DEBUG: 'JavaScript/TypeScript Coverage' skipped because there is no related file in current project
-10:26:07.973 DEBUG: 'Import of ESLint issues' skipped because one of the required properties is missing
-10:26:07.973 DEBUG: 'Import of TSLint issues' skipped because one of the required properties is missing
-10:26:07.988 DEBUG: 'CSS Metrics' skipped because there is no related file in current project
-10:26:07.988 DEBUG: 'Import of stylelint issues' skipped because there is no related file in current project
-10:26:07.988 DEBUG: 'Ruby Sensor' skipped because there is no related file in current project
-10:26:07.988 DEBUG: 'Import of RuboCop issues' skipped because there is no related file in current project
-10:26:07.988 DEBUG: 'SimpleCov Sensor for Ruby coverage' skipped because there is no related file in current project
-10:26:07.988 DEBUG: 'Scala Sensor' skipped because there is no related file in current project
-10:26:07.988 DEBUG: 'Scoverage sensor for Scala coverage' skipped because there is no related file in current project
-10:26:07.988 DEBUG: 'Import of Scalastyle issues' skipped because there is no related file in current project
-10:26:07.988 DEBUG: 'Import of Scapegoat issues' skipped because there is no related file in current project
-10:26:07.988 DEBUG: 'Import of Checkstyle issues' skipped because there is no related file in current project
-10:26:07.988 DEBUG: 'Import of PMD issues' skipped because one of the required properties is missing
-10:26:07.988 DEBUG: 'Import of SpotBugs issues' skipped because there is no related file in current project
-10:26:07.988 DEBUG: 'SurefireSensor' skipped because there is no related file in current project
-10:26:07.988 DEBUG: 'Removed properties sensor' skipped because there is no related file in current project
-10:26:08.004 DEBUG: 'HTML' skipped because there is no related file in current project
-10:26:08.004 DEBUG: 'Flex' skipped because there is no related file in current project
-10:26:08.004 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
-10:26:08.004 DEBUG: 'XML Sensor' skipped because there is no related file in current project
-10:26:08.004 DEBUG: 'PHP sensor' skipped because there is no related file in current project
-10:26:08.004 DEBUG: 'Analyzer for "php.ini" files' skipped because there is no related file in current project
-10:26:08.004 DEBUG: 'Import of PHPStan issues' skipped because there is no related file in current project
-10:26:08.004 DEBUG: 'Import of Psalm issues' skipped because there is no related file in current project
-10:26:08.020 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
-10:26:08.020 DEBUG: Sensors : JaCoCo XML Report Importer -> CSS Rules -> C# Project Type Information -> C# Analysis Log -> C# Properties -> Text Sensor -> VB.NET Project Type Information -> VB.NET Analysis Log -> VB.NET Properties
-10:26:08.020 INFO: Sensor JaCoCo XML Report Importer [jacoco]
-10:26:08.035 INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
-10:26:08.035 INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
-10:26:08.035 INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=15ms
-10:26:08.035 INFO: Sensor CSS Rules [javascript]
-10:26:08.035 INFO: No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
-10:26:08.035 INFO: Sensor CSS Rules [javascript] (done) | time=0ms
-10:26:08.035 INFO: Sensor C# Project Type Information [csharp]
-10:26:08.051 INFO: Sensor C# Project Type Information [csharp] (done) | time=0ms
-10:26:08.051 INFO: Sensor C# Analysis Log [csharp]
-10:26:08.067 DEBUG: Project 'test4': Property missing: 'sonar.cs.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
-10:26:08.067 INFO: Sensor C# Analysis Log [csharp] (done) | time=16ms
-10:26:08.067 INFO: Sensor C# Properties [csharp]
-10:26:08.067 DEBUG: Project 'test4': Property missing: 'sonar.cs.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
-10:26:08.067 DEBUG: Project 'test4': No Roslyn issues reports have been found.
-10:26:08.067 INFO: Sensor C# Properties [csharp] (done) | time=0ms
-10:26:08.067 INFO: Sensor Text Sensor [text]
-10:26:08.082 INFO: 0 source files to be analyzed
-10:26:08.082 INFO: 0/0 source files have been analyzed
-10:26:08.082 INFO: Sensor Text Sensor [text] (done) | time=15ms
-10:26:08.082 INFO: Sensor VB.NET Project Type Information [vbnet]
-10:26:08.082 INFO: Sensor VB.NET Project Type Information [vbnet] (done) | time=0ms
-10:26:08.082 INFO: Sensor VB.NET Analysis Log [vbnet]
-10:26:08.098 DEBUG: Project 'test4': Property missing: 'sonar.vbnet.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
-10:26:08.098 INFO: Sensor VB.NET Analysis Log [vbnet] (done) | time=16ms
-10:26:08.098 INFO: Sensor VB.NET Properties [vbnet]
-10:26:08.098 DEBUG: Project 'test4': Property missing: 'sonar.vbnet.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
-10:26:08.098 DEBUG: Project 'test4': No Roslyn issues reports have been found.
-10:26:08.098 INFO: Sensor VB.NET Properties [vbnet] (done) | time=0ms
-10:26:08.113 INFO: ------------- Run sensors on project
-10:26:08.176 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
-10:26:08.192 DEBUG: 'C#' skipped because there is no related file in current project
-10:26:08.192 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
-10:26:08.192 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
-10:26:08.192 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
-10:26:08.192 DEBUG: 'VB.NET' skipped because there is no related file in current project
-10:26:08.192 DEBUG: 'VB.NET Tests Coverage Report Import' skipped because there is no related file in current project
-10:26:08.192 DEBUG: '[Deprecated] VB.NET Integration Tests Coverage Report Import' skipped because there is no related file in current project
-10:26:08.192 DEBUG: 'VB.NET Unit Test Results Import' skipped because there is no related file in current project
-10:26:08.192 DEBUG: 'Java CPD Block Indexer' skipped because there is no related file in current project
-10:26:08.192 DEBUG: Sensors : Analysis Warnings import -> Zero Coverage Sensor
-10:26:08.192 INFO: Sensor Analysis Warnings import [csharp]
-10:26:08.192 INFO: Sensor Analysis Warnings import [csharp] (done) | time=0ms
-10:26:08.192 INFO: Sensor Zero Coverage Sensor
-10:26:08.192 INFO: Sensor Zero Coverage Sensor (done) | time=0ms
-10:26:08.207 INFO: SCM Publisher is disabled
-10:26:08.207 INFO: CPD Executor Calculating CPD for 0 files
-10:26:08.207 INFO: CPD Executor CPD calculation finished (done) | time=0ms
-10:26:08.317 INFO: Analysis report generated in 110ms, dir size=120.9 kB
-10:26:08.363 INFO: Analysis report compressed in 46ms, zip size=14.3 kB
-10:26:08.363 INFO: Analysis report generated in C:\Users\41857\.scannerwork\scanner-report
-10:26:08.363 DEBUG: Upload report
-10:26:08.395 DEBUG: POST 200 http://localhost:9000/api/ce/submit?projectKey=test4 | time=32ms
-10:26:08.395 INFO: Analysis report uploaded in 32ms
-10:26:08.410 DEBUG: Report metadata written to C:\Users\41857\.scannerwork\report-task.txt
-10:26:08.410 INFO: ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=test4
-10:26:08.410 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
-10:26:08.410 INFO: More about the report processing at http://localhost:9000/api/ce/task?id=AYjhdbe7-F0MSAvZGZIo
-10:26:08.410 DEBUG: Post-jobs :
-10:26:08.426 INFO: Analysis total time: 5.828 s
-10:26:08.426 INFO: ------------------------------------------------------------------------
-10:26:08.426 INFO: EXECUTION SUCCESS
-10:26:08.426 INFO: ------------------------------------------------------------------------
-10:26:08.426 INFO: Total time: 8.485s
-10:26:08.488 INFO: Final Memory: 16M/60M
-10:26:08.488 INFO: ------------------------------------------------------------------------
+sonar-scanner -Dsonar.login=squ_487de307a573f86d2b032e245736a727e27f18ba -Dsonar.projectKey=test4 -X -Dsonar.sources=C:\path -Dsonar.config.path=D:\sonarqube-9.8.0.63668\sonarqube-9.8.0.63668\conf\sonar.properties
+11:29:38.833 INFO: Scanner configuration file: D:\sonar-scanner-cli-4.8.0.2856-windows\sonar-scanner-4.8.0.2856-windows\bin\..\conf\sonar-scanner.properties
+11:29:38.833 INFO: Project root configuration file: NONE
+11:29:38.880 INFO: SonarScanner 4.8.0.2856
+11:29:38.880 INFO: Java 11.0.17 Eclipse Adoptium (64-bit)
+11:29:38.880 INFO: Windows Server 2019 10.0 amd64
+11:29:39.083 DEBUG: keyStore is :
+11:29:39.083 DEBUG: keyStore type is : pkcs12
+11:29:39.083 DEBUG: keyStore provider is :
+11:29:39.083 DEBUG: init keystore
+11:29:39.083 DEBUG: init keymanager of type SunX509
+11:29:39.646 DEBUG: Create: C:\Users\41857\.sonar\cache
+11:29:39.646 INFO: User cache: C:\Users\41857\.sonar\cache
+11:29:39.646 DEBUG: Create: C:\Users\41857\.sonar\cache\_tmp
+11:29:39.646 DEBUG: Extract sonar-scanner-api-batch in temp...
+11:29:39.677 DEBUG: Get bootstrap index...
+11:29:39.677 DEBUG: Download: http://localhost:9000/batch/index
+11:29:39.755 DEBUG: Get bootstrap completed
+11:29:39.755 DEBUG: Create isolated classloader...
+11:29:39.771 DEBUG: Start temp cleaning...
+11:29:39.771 DEBUG: Temp cleaning done
+11:29:39.771 DEBUG: Execution getVersion
+11:29:39.802 INFO: Analyzing on SonarQube server 9.8.0.63668
+11:29:39.818 INFO: Default locale: "en_IN", source code encoding: "windows-1252" (analysis is platform dependent)
+11:29:39.818 DEBUG: Work directory: C:\Users\41857\.scannerwork
+11:29:39.818 DEBUG: Execution execute
+11:29:40.599 DEBUG: Community 9.8.0.63668
+11:29:40.911 INFO: Load global settings
+11:29:40.974 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf | time=63ms
+11:29:41.005 INFO: Load global settings (done) | time=94ms
+11:29:41.021 INFO: Server id: E176CC90-AYe-Rg_-WKlF9Y2yyETQ
+11:29:41.021 INFO: User cache: C:\Users\41857\.sonar\cache
+11:29:41.036 INFO: Load/download plugins
+11:29:41.036 INFO: Load plugins index
+11:29:41.052 DEBUG: GET 200 http://localhost:9000/api/plugins/installed | time=16ms
+11:29:41.099 INFO: Load plugins index (done) | time=63ms
+11:29:41.240 INFO: Load/download plugins (done) | time=204ms
+11:29:41.396 DEBUG: Plugins:
+11:29:41.396 DEBUG:   * Python Code Quality and Security 3.21.0.10628 (python)
+11:29:41.396 DEBUG:   * Go Code Quality and Security 1.11.0.3905 (go)
+11:29:41.396 DEBUG:   * JaCoCo 1.1.1.1157 (jacoco)
+11:29:41.396 DEBUG:   * Kotlin Code Quality and Security 2.12.0.1956 (kotlin)
+11:29:41.396 DEBUG:   * IaC Code Quality and Security 1.9.2.2279 (iac)
+11:29:41.396 DEBUG:   * JavaScript/TypeScript/CSS Code Quality and Security 9.12.0.20319 (javascript)
+11:29:41.396 DEBUG:   * Ruby Code Quality and Security 1.11.0.3905 (ruby)
+11:29:41.396 DEBUG:   * Scala Code Quality and Security 1.11.0.3905 (sonarscala)
+11:29:41.396 DEBUG:   * C# Code Quality and Security 8.50.0.58025 (csharp)
+11:29:41.396 DEBUG:   * Java Code Quality and Security 7.15.0.30507 (java)
+11:29:41.396 DEBUG:   * HTML Code Quality and Security 3.7.1.3306 (web)
+11:29:41.396 DEBUG:   * Flex Code Quality and Security 2.8.0.3166 (flex)
+11:29:41.396 DEBUG:   * XML Code Quality and Security 2.6.1.3686 (xml)
+11:29:41.396 DEBUG:   * PHP Code Quality and Security 3.25.0.9077 (php)
+11:29:41.396 DEBUG:   * Text file Code Quality and Security 1.2.0.510 (text)
+11:29:41.396 DEBUG:   * VB.NET Code Quality and Security 8.50.0.58025 (vbnet)
+11:29:41.396 DEBUG:   * Configuration detection fot Code Quality and Security 1.2.0.267 (config)
+11:29:42.099 INFO: Process project properties
+11:29:42.115 INFO: Process project properties (done) | time=16ms
+11:29:42.115 INFO: Execute project builders
+11:29:42.115 DEBUG: Execute project builder: org.sonar.plugins.csharp.CSharpGlobalProtobufFileProcessor
+11:29:42.115 DEBUG: Execute project builder: org.sonar.plugins.vbnet.VbNetGlobalProtobufFileProcessor
+11:29:42.115 INFO: Execute project builders (done) | time=0ms
+11:29:42.130 INFO: Project key: test4
+11:29:42.130 INFO: Base dir: C:\Users\41857
+11:29:42.146 INFO: Working dir: C:\Users\41857\.scannerwork
+11:29:42.146 DEBUG: Project global encoding: windows-1252, default locale: en_IN
+11:29:42.161 INFO: Load project settings for component key: 'test4'
+11:29:42.177 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf?component=test4 | time=16ms
+11:29:42.193 INFO: Load project settings for component key: 'test4' (done) | time=32ms
+11:29:42.333 DEBUG: Creating module hierarchy
+11:29:42.333 DEBUG:   Init module 'test4'
+11:29:42.333 DEBUG:     Base dir: C:\Users\41857
+11:29:42.333 DEBUG:     Working dir: C:\Users\41857\.scannerwork
+11:29:42.333 DEBUG:     Module global encoding: windows-1252, default locale: en_IN
+11:29:42.365 DEBUG: Available languages:
+11:29:42.365 DEBUG:   * Python => "py"
+11:29:42.365 DEBUG:   * Go => "go"
+11:29:42.365 DEBUG:   * Kotlin => "kotlin"
+11:29:42.365 DEBUG:   * Terraform => "terraform"
+11:29:42.365 DEBUG:   * CloudFormation => "cloudformation"
+11:29:42.365 DEBUG:   * Kubernetes => "kubernetes"
+11:29:42.365 DEBUG:   * JavaScript => "js"
+11:29:42.365 DEBUG:   * TypeScript => "ts"
+11:29:42.365 DEBUG:   * CSS => "css"
+11:29:42.365 DEBUG:   * Ruby => "ruby"
+11:29:42.365 DEBUG:   * Scala => "scala"
+11:29:42.365 DEBUG:   * C# => "cs"
+11:29:42.365 DEBUG:   * Java => "java"
+11:29:42.380 DEBUG:   * HTML => "web"
+11:29:42.380 DEBUG:   * JSP => "jsp"
+11:29:42.380 DEBUG:   * Flex => "flex"
+11:29:42.380 DEBUG:   * XML => "xml"
+11:29:42.380 DEBUG:   * PHP => "php"
+11:29:42.380 DEBUG:   * Text => "text"
+11:29:42.380 DEBUG:   * VB.NET => "vbnet"
+11:29:42.380 DEBUG:   * YAML => "yaml"
+11:29:42.380 DEBUG:   * JSON => "json"
+11:29:42.412 DEBUG: SCM Step is disabled by configuration
+11:29:42.412 INFO: Load quality profiles
+11:29:42.458 DEBUG: GET 200 http://localhost:9000/api/qualityprofiles/search.protobuf?project=test4 | time=31ms
+11:29:42.490 INFO: Load quality profiles (done) | time=78ms
+11:29:42.490 INFO: Load active rules
+11:29:42.537 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RpQ9WKlF9Y2yyMm6&ps=500&p=1 | time=47ms
+11:29:42.708 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RpiVWKlF9Y2yyMn4&ps=500&p=1 | time=46ms
+11:29:42.755 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RplAWKlF9Y2yyMpV&ps=500&p=1 | time=31ms
+11:29:42.771 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-Rpo1WKlF9Y2yyMp1&ps=500&p=1 | time=16ms
+11:29:42.818 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RpusWKlF9Y2yyMvV&ps=500&p=1 | time=31ms
+11:29:42.896 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RpsAWKlF9Y2yyMs8&ps=500&p=1 | time=78ms
+11:29:43.037 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RpxIWKlF9Y2yyM2y&ps=500&p=1 | time=125ms
+11:29:43.177 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-Rp1CWKlF9Y2yyNAP&ps=500&p=1 | time=109ms
+11:29:43.224 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-Rp4MWKlF9Y2yyNEM&ps=500&p=1 | time=31ms
+11:29:43.349 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-Rp6xWKlF9Y2yyNM_&ps=500&p=1 | time=109ms
+11:29:43.599 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqFAWKlF9Y2yyNgc&ps=500&p=1 | time=203ms
+11:29:43.646 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqOSWKlF9Y2yyNo0&ps=500&p=1 | time=16ms
+11:29:43.693 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqVsWKlF9Y2yyNsC&ps=500&p=1 | time=31ms
+11:29:43.724 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqS7WKlF9Y2yyNqD&ps=500&p=1 | time=31ms
+11:29:43.724 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqXXWKlF9Y2yyNsz&ps=500&p=1 | time=0ms
+11:29:43.818 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqYDWKlF9Y2yyNzF&ps=500&p=1 | time=94ms
+11:29:43.880 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqaqWKlF9Y2yyN3h&ps=500&p=1 | time=46ms
+11:29:43.896 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqcIWKlF9Y2yyN4W&ps=500&p=1 | time=16ms
+11:29:43.959 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-Rqd2WKlF9Y2yyN8X&ps=500&p=1 | time=63ms
+11:29:44.005 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqfvWKlF9Y2yyN_G&ps=500&p=1 | time=31ms
+11:29:44.115 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqiIWKlF9Y2yyOGS&ps=500&p=1 | time=110ms
+11:29:44.130 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AYe-RqhRWKlF9Y2yyN_i&ps=500&p=1 | time=0ms
+11:29:44.146 INFO: Load active rules (done) | time=1656ms
+11:29:44.162 INFO: Load analysis cache
+11:29:44.177 DEBUG: GET 404 http://localhost:9000/api/analysis_cache/get?project=test4 | time=15ms
+11:29:44.177 INFO: Load analysis cache (404) | time=15ms
+11:29:44.240 INFO: Load project repositories
+11:29:44.255 DEBUG: GET 200 http://localhost:9000/batch/project.protobuf?key=test4 | time=0ms
+11:29:44.271 INFO: Load project repositories (done) | time=31ms
+11:29:44.287 DEBUG: Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
+11:29:44.302 DEBUG: Declared extensions of language Go were converted to sonar.lang.patterns.go : **/*.go
+11:29:44.302 DEBUG: Declared extensions of language Kotlin were converted to sonar.lang.patterns.kotlin : **/*.kt
+11:29:44.302 DEBUG: Declared extensions of language Terraform were converted to sonar.lang.patterns.terraform : **/*.tf
+11:29:44.318 DEBUG: Declared extensions of language CloudFormation were converted to sonar.lang.patterns.cloudformation :
+11:29:44.318 DEBUG: Declared extensions of language Kubernetes were converted to sonar.lang.patterns.kubernetes :
+11:29:44.318 DEBUG: Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.cjs,**/*.mjs,**/*.vue
+11:29:44.318 DEBUG: Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx,**/*.cts,**/*.mts
+11:29:44.318 DEBUG: Declared extensions of language CSS were converted to sonar.lang.patterns.css : **/*.css,**/*.less,**/*.scss
+11:29:44.318 DEBUG: Declared extensions of language Ruby were converted to sonar.lang.patterns.ruby : **/*.rb
+11:29:44.318 DEBUG: Declared extensions of language Scala were converted to sonar.lang.patterns.scala : **/*.scala
+11:29:44.318 DEBUG: Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
+11:29:44.318 DEBUG: Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+11:29:44.318 DEBUG: Declared extensions of language HTML were converted to sonar.lang.patterns.web : **/*.html,**/*.xhtml,**/*.cshtml,**/*.vbhtml,**/*.aspx,**/*.ascx,**/*.rhtml,**/*.erb,**/*.shtm,**/*.shtml,**/*.cmp,**/*.twig
+11:29:44.318 DEBUG: Declared extensions of language JSP were converted to sonar.lang.patterns.jsp : **/*.jsp,**/*.jspf,**/*.jspx
+11:29:44.318 DEBUG: Declared extensions of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+11:29:44.334 DEBUG: Declared extensions of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl
+11:29:44.334 DEBUG: Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+11:29:44.334 DEBUG: Declared extensions of language Text were converted to sonar.lang.patterns.text : **/*.sonarshouldnotexistextension
+11:29:44.334 DEBUG: Declared extensions of language VB.NET were converted to sonar.lang.patterns.vbnet : **/*.vb
+11:29:44.334 DEBUG: Declared extensions of language YAML were converted to sonar.lang.patterns.yaml : **/*.yaml,**/*.yml
+11:29:44.334 DEBUG: Declared extensions of language JSON were converted to sonar.lang.patterns.json : **/*.json
+11:29:44.365 DEBUG: Will ignore generated code
+11:29:44.380 DEBUG: Will ignore generated code
+11:29:44.380 INFO: Indexing files...
+11:29:44.380 INFO: Project configuration:
+11:29:44.396 WARN: File 'C:\path\sonar-scanning-examples-master\.github\CODEOWNERS' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.396 WARN: File 'C:\path\sonar-scanning-examples-master\.github\workflows\build.yml' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.396 WARN: File 'C:\path\sonar-scanning-examples-master\.gitignore' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.396 WARN: File 'C:\path\sonar-scanning-examples-master\doc\jacoco.md' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.412 WARN: File 'C:\path\sonar-scanning-examples-master\LICENSE.txt' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.412 WARN: File 'C:\path\sonar-scanning-examples-master\NOTICE.txt' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.412 WARN: File 'C:\path\sonar-scanning-examples-master\README.md' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.412 WARN: File 'C:\path\sonar-scanning-examples-master\sonar-project.properties' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.412 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\copybooks\Attr.cpy' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.427 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\copybooks\Custmas.cpy' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.427 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\copybooks\Errparm.cpy' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.427 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\copybooks\MNTSET2.CPY' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.443 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\coverage-report\coverage-cobertua-flex.xml' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.443 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\README.md' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.443 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\sonar-project.properties' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.443 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\abap\ZBCMKZ17.abap' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.459 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\abap\ZZBGS106.abap' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.459 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\cobol\Custmnt2.cbl' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.474 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\directory\file_in_directory.py' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.474 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\erlang\hello.erl' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.490 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\flex\Circle.as' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.490 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\flex\UncoveredCircle.as' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.490 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\html\sample.xhtml' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.505 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\javascript\Person.js' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.505 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\kotlin\sample.kt' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.505 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\package\file_in_package.py' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.505 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\package\__init__.py' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.521 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\php\Math.php' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.521 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\pli\center.pli' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.537 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\pli\chess.pli' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.537 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\pli\maxlen.pli' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.537 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\pli\search.pli' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.537 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\python\badfortune.py' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.537 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\python\__init__.py' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.552 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\rpg\MYPROGRAM.rpg' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.552 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\samples\fortune.py' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.552 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\samples\letters.py' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.568 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\samples\strfile.py' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.568 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\samples\__init__.py' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.568 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\sql\ddl.sql' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.568 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\sql\ut_report.pkb' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.584 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\swift\example.swift' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.584 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\vb6\Info.frm' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.599 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\vb6\Registry.bas' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.599 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\vb6\Registry.cls' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.599 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner\src\xml\sonar_backup.xml' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.615 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-ant\ant-basic\build.xml' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.615 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-ant\ant-basic\README.md' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.615 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-ant\ant-basic\src\One.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.630 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-ant\ant-coverage\build.xml' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.630 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-ant\ant-coverage\README.md' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.677 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-ant\ant-coverage\src\main\java\org\jacoco\examples\expressions\Add.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.677 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-ant\ant-coverage\src\main\java\org\jacoco\examples\expressions\Const.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.693 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-ant\ant-coverage\src\main\java\org\jacoco\examples\expressions\Div.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.693 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-ant\ant-coverage\src\main\java\org\jacoco\examples\expressions\IExpression.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.693 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-ant\ant-coverage\src\main\java\org\jacoco\examples\expressions\Mul.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.709 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-ant\ant-coverage\src\main\java\org\jacoco\examples\expressions\Sub.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.709 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-ant\ant-coverage\src\main\java\org\jacoco\examples\parser\ExpressionParser.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.724 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-ant\ant-coverage\src\main\java\org\jacoco\examples\parser\Main.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.740 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-ant\ant-coverage\src\test\java\org\jacoco\examples\parser\ExpressionParserIT.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.755 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-ant\ant-coverage\src\test\java\org\jacoco\examples\parser\ExpressionParserTest.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.755 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-basic\build.gradle' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.755 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-basic\gradle\wrapper\gradle-wrapper.jar' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.771 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-basic\gradle\wrapper\gradle-wrapper.properties' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.771 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-basic\gradle.properties' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.771 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-basic\gradlew' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.771 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-basic\gradlew.bat' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.771 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-basic\README.md' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.787 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-basic\settings.gradle' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.802 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-basic\src\main\java\com\acme\App.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.818 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-basic\src\test\java\com\acme\AppTest.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.818 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule\build.gradle' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.834 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule\gradle\wrapper\gradle-wrapper.jar' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.834 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule\gradle\wrapper\gradle-wrapper.properties' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.834 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule\gradlew' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.834 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule\gradlew.bat' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.849 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule\module-one\src\main\java\One.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.865 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule\module-two\src\main\java\Two.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.865 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule\README.md' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.865 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule\settings.gradle' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.880 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\application\build.gradle' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.912 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\application\src\main\java\org\gradle\sample\app\Main.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.912 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\application\src\main\java\org\gradle\sample\app\MessageUtils.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.943 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\application\src\test\java\org\gradle\sample\app\MessageUtilsTest.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.943 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\build.gradle' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.959 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\gradle\wrapper\gradle-wrapper.jar' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.959 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\gradle\wrapper\gradle-wrapper.properties' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.959 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\gradlew' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.959 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\gradlew.bat' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:44.974 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\list\build.gradle' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.005 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\list\src\main\java\org\gradle\sample\list\LinkedList.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.021 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\list\src\test\java\org\gradle\sample\list\LinkedListTest.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.037 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\README.md' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.037 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\settings.gradle' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.037 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\sonar.gradle' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.037 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\utilities\build.gradle' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.068 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\utilities\src\main\java\org\gradle\sample\utilities\JoinUtils.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.084 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\utilities\src\main\java\org\gradle\sample\utilities\SplitUtils.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.084 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-gradle\gradle-multimodule-coverage\utilities\src\main\java\org\gradle\sample\utilities\StringUtils.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.099 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-basic\pom.xml' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.099 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-basic\README.md' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.115 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-basic\src\main\java\com\acme\basic\HelloWorld.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.146 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-basic\src\test\java\com\acme\basic\HelloWorldTest.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.162 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-multilingual\pom.xml' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.162 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-multilingual\README.md' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.193 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-multilingual\src\main\java\com\acme\multilingual\HelloWorld.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.209 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-multilingual\src\main\kotlin\com\acme\multilingual\KotlinHelloWorld.kt' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.240 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-multilingual\src\test\java\com\acme\multilingual\HelloWorldTest.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.255 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-multilingual\src\test\kotlin\com\acme\multilingual\KotlinHelloWorldTest.kt' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.255 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-multimodule\module1\pom.xml' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.287 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-multimodule\module1\src\main\java\com\acme\module1\Module1.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.318 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-multimodule\module1\src\test\java\com\acme\module1\Module1Test.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.318 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-multimodule\module2\pom.xml' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.334 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-multimodule\module2\src\main\java\com\acme\module2\Module2.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.365 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-multimodule\module2\src\test\java\com\acme\module2\Module2Test.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.365 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-multimodule\pom.xml' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.365 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-multimodule\README.md' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.365 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-multimodule\tests\pom.xml' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.396 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-maven\maven-multimodule\tests\src\test\java\com\acme\its\ModulesTest.java' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.396 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-msbuild\CSharpProject\README.md' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.412 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-msbuild\CSharpProject\SomeConsoleApplication\App.config' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.412 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-msbuild\CSharpProject\SomeConsoleApplication\Program.cs' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.412 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-msbuild\CSharpProject\SomeConsoleApplication\Properties\AssemblyInfo.cs' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.412 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-msbuild\CSharpProject\SomeConsoleApplication\SomeConsoleApplication.csproj' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.427 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-msbuild\CSharpProject\SomeConsoleApplication.sln' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.427 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-msbuild\CSharpProject\SomeConsoleApplicationTest\ProgramTests.cs' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.443 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-msbuild\CSharpProject\SomeConsoleApplicationTest\Properties\AssemblyInfo.cs' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.443 WARN: File 'C:\path\sonar-scanning-examples-master\sonarqube-scanner-msbuild\CSharpProject\SomeConsoleApplicationTest\SomeConsoleApplicationTest.csproj' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.443 WARN: File 'C:\path\sonar-scanning-examples-master\swift-coverage\README.md' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.443 WARN: File 'C:\path\sonar-scanning-examples-master\swift-coverage\swift-coverage-example\.gitignore' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.443 WARN: File 'C:\path\sonar-scanning-examples-master\swift-coverage\swift-coverage-example\info.plist' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.459 WARN: File 'C:\path\sonar-scanning-examples-master\swift-coverage\swift-coverage-example\sonar-project.properties' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.459 WARN: File 'C:\path\sonar-scanning-examples-master\swift-coverage\swift-coverage-example\swift-coverage-example\AppDelegate.swift' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.459 WARN: File 'C:\path\sonar-scanning-examples-master\swift-coverage\swift-coverage-example\swift-coverage-example\AppDelegate2.swift' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.474 WARN: File 'C:\path\sonar-scanning-examples-master\swift-coverage\swift-coverage-example\swift-coverage-example\Assets.xcassets\AppIcon.appiconset\Contents.json' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.474 WARN: File 'C:\path\sonar-scanning-examples-master\swift-coverage\swift-coverage-example\swift-coverage-example\Base.lproj\MainMenu.xib' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.474 WARN: File 'C:\path\sonar-scanning-examples-master\swift-coverage\swift-coverage-example\swift-coverage-example\Info.plist' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.490 WARN: File 'C:\path\sonar-scanning-examples-master\swift-coverage\swift-coverage-example\swift-coverage-example.xcodeproj\project.pbxproj' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.490 WARN: File 'C:\path\sonar-scanning-examples-master\swift-coverage\swift-coverage-example\swift-coverage-example.xcodeproj\project.xcworkspace\contents.xcworkspacedata' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.506 WARN: File 'C:\path\sonar-scanning-examples-master\swift-coverage\swift-coverage-example\swift-coverage-example.xcodeproj\project.xcworkspace\xcuserdata\elenavilchik.xcuserdatad\UserInterfaceState.xcuserstate' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.506 WARN: File 'C:\path\sonar-scanning-examples-master\swift-coverage\swift-coverage-example\swift-coverage-example.xcodeproj\xcshareddata\xcschemes\swift-coverage-example.xcscheme' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.521 WARN: File 'C:\path\sonar-scanning-examples-master\swift-coverage\swift-coverage-example\swift-coverage-exampleTests\Info.plist' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.521 WARN: File 'C:\path\sonar-scanning-examples-master\swift-coverage\swift-coverage-example\swift-coverage-exampleTests\swift_coverage_exampleTests.swift' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.521 WARN: File 'C:\path\sonar-scanning-examples-master\swift-coverage\swift-coverage-example\xccov-to-sonarqube-generic.sh' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.521 WARN: File 'C:\path\test\f2.java.txt' is ignored. It is not located in project basedir 'C:\Users\41857'.
+11:29:45.537 INFO: 0 files indexed
+11:29:45.537 INFO: ------------- Run sensors on module test4
+11:29:45.693 INFO: Load metrics repository
+11:29:45.709 DEBUG: GET 200 http://localhost:9000/api/metrics/search?ps=500&p=1 | time=16ms
+11:29:45.771 INFO: Load metrics repository (done) | time=78ms
+11:29:48.021 DEBUG: 'JavaSensor' skipped because there is no related file in current project
+11:29:48.037 DEBUG: 'Import external issues report' skipped because one of the required properties is missing
+11:29:48.037 DEBUG: 'Import external issues report from SARIF file.' skipped because one of the required properties is missing
+11:29:48.037 DEBUG: 'Python Sensor' skipped because there is no related file in current project
+11:29:48.037 DEBUG: 'Cobertura Sensor for Python coverage' skipped because there is no related file in current project
+11:29:48.037 DEBUG: 'PythonXUnitSensor' skipped because there is no related file in current project
+11:29:48.037 DEBUG: 'Import of Pylint issues' skipped because there is no related file in current project
+11:29:48.037 DEBUG: 'Import of Bandit issues' skipped because there is no related file in current project
+11:29:48.037 DEBUG: 'Import of Flake8 issues' skipped because there is no related file in current project
+11:29:48.037 DEBUG: 'Code Quality and Security for Go' skipped because there is no related file in current project
+11:29:48.037 DEBUG: 'Go Unit Test Report' skipped because there is no related file in current project
+11:29:48.037 DEBUG: 'Go Cover sensor for Go coverage' skipped because one of the required properties is missing
+11:29:48.037 DEBUG: 'Import of go vet issues' skipped because there is no related file in current project
+11:29:48.053 DEBUG: 'Import of Golint issues' skipped because there is no related file in current project
+11:29:48.053 DEBUG: 'Import of GoMetaLinter issues' skipped because there is no related file in current project
+11:29:48.053 DEBUG: 'Import of GolangCI-Lint issues' skipped because there is no related file in current project
+11:29:48.053 DEBUG: 'Kotlin Sensor' skipped because there is no related file in current project
+11:29:48.053 DEBUG: 'KotlinSurefireSensor' skipped because there is no related file in current project
+11:29:48.053 DEBUG: 'Import of detekt issues' skipped because there is no related file in current project
+11:29:48.053 DEBUG: 'Import of Android Lint issues' skipped because one of the required properties is missing
+11:29:48.053 DEBUG: 'Import of ktlint issues' skipped because there is no related file in current project
+11:29:48.053 DEBUG: 'IaC Terraform Sensor' skipped because there is no related file in current project
+11:29:48.068 DEBUG: 'IaC CloudFormation Sensor' skipped because there is no related file in current project
+11:29:48.068 DEBUG: 'IaC Kubernetes Sensor' skipped because there is no related file in current project
+11:29:48.068 DEBUG: 'JavaScript analysis' skipped because there is no related file in current project
+11:29:48.068 DEBUG: 'TypeScript analysis' skipped because there is no related file in current project
+11:29:48.068 DEBUG: 'JavaScript inside YAML analysis' skipped because there is no related file in current project
+11:29:48.068 DEBUG: 'JavaScript/TypeScript Coverage' skipped because there is no related file in current project
+11:29:48.068 DEBUG: 'Import of ESLint issues' skipped because one of the required properties is missing
+11:29:48.068 DEBUG: 'Import of TSLint issues' skipped because one of the required properties is missing
+11:29:48.068 DEBUG: 'CSS Metrics' skipped because there is no related file in current project
+11:29:48.068 DEBUG: 'Import of stylelint issues' skipped because there is no related file in current project
+11:29:48.068 DEBUG: 'Ruby Sensor' skipped because there is no related file in current project
+11:29:48.068 DEBUG: 'Import of RuboCop issues' skipped because there is no related file in current project
+11:29:48.068 DEBUG: 'SimpleCov Sensor for Ruby coverage' skipped because there is no related file in current project
+11:29:48.084 DEBUG: 'Scala Sensor' skipped because there is no related file in current project
+11:29:48.084 DEBUG: 'Scoverage sensor for Scala coverage' skipped because there is no related file in current project
+11:29:48.084 DEBUG: 'Import of Scalastyle issues' skipped because there is no related file in current project
+11:29:48.084 DEBUG: 'Import of Scapegoat issues' skipped because there is no related file in current project
+11:29:48.084 DEBUG: 'Import of Checkstyle issues' skipped because there is no related file in current project
+11:29:48.084 DEBUG: 'Import of PMD issues' skipped because one of the required properties is missing
+11:29:48.084 DEBUG: 'Import of SpotBugs issues' skipped because there is no related file in current project
+11:29:48.100 DEBUG: 'SurefireSensor' skipped because there is no related file in current project
+11:29:48.100 DEBUG: 'Removed properties sensor' skipped because there is no related file in current project
+11:29:48.100 DEBUG: 'HTML' skipped because there is no related file in current project
+11:29:48.100 DEBUG: 'Flex' skipped because there is no related file in current project
+11:29:48.100 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
+11:29:48.115 DEBUG: 'XML Sensor' skipped because there is no related file in current project
+11:29:48.115 DEBUG: 'PHP sensor' skipped because there is no related file in current project
+11:29:48.115 DEBUG: 'Analyzer for "php.ini" files' skipped because there is no related file in current project
+11:29:48.115 DEBUG: 'Import of PHPStan issues' skipped because there is no related file in current project
+11:29:48.115 DEBUG: 'Import of Psalm issues' skipped because there is no related file in current project
+11:29:48.131 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+11:29:48.131 DEBUG: Sensors : JaCoCo XML Report Importer -> CSS Rules -> C# Project Type Information -> C# Analysis Log -> C# Properties -> Text Sensor -> VB.NET Project Type Information -> VB.NET Analysis Log -> VB.NET Properties
+11:29:48.131 INFO: Sensor JaCoCo XML Report Importer [jacoco]
+11:29:48.131 INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+11:29:48.131 INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+11:29:48.146 INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=15ms
+11:29:48.146 INFO: Sensor CSS Rules [javascript]
+11:29:48.162 INFO: No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+11:29:48.162 INFO: Sensor CSS Rules [javascript] (done) | time=16ms
+11:29:48.162 INFO: Sensor C# Project Type Information [csharp]
+11:29:48.162 INFO: Sensor C# Project Type Information [csharp] (done) | time=0ms
+11:29:48.162 INFO: Sensor C# Analysis Log [csharp]
+11:29:48.178 DEBUG: Project 'test4': Property missing: 'sonar.cs.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+11:29:48.178 INFO: Sensor C# Analysis Log [csharp] (done) | time=16ms
+11:29:48.178 INFO: Sensor C# Properties [csharp]
+11:29:48.193 DEBUG: Project 'test4': Property missing: 'sonar.cs.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+11:29:48.193 DEBUG: Project 'test4': No Roslyn issues reports have been found.
+11:29:48.193 INFO: Sensor C# Properties [csharp] (done) | time=15ms
+11:29:48.193 INFO: Sensor Text Sensor [text]
+11:29:48.193 INFO: 0 source files to be analyzed
+11:29:48.193 INFO: 0/0 source files have been analyzed
+11:29:48.193 INFO: Sensor Text Sensor [text] (done) | time=0ms
+11:29:48.193 INFO: Sensor VB.NET Project Type Information [vbnet]
+11:29:48.193 INFO: Sensor VB.NET Project Type Information [vbnet] (done) | time=0ms
+11:29:48.225 INFO: Sensor VB.NET Analysis Log [vbnet]
+11:29:48.240 DEBUG: Project 'test4': Property missing: 'sonar.vbnet.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+11:29:48.240 INFO: Sensor VB.NET Analysis Log [vbnet] (done) | time=15ms
+11:29:48.240 INFO: Sensor VB.NET Properties [vbnet]
+11:29:48.256 DEBUG: Project 'test4': Property missing: 'sonar.vbnet.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+11:29:48.256 DEBUG: Project 'test4': No Roslyn issues reports have been found.
+11:29:48.256 INFO: Sensor VB.NET Properties [vbnet] (done) | time=16ms
+11:29:48.256 INFO: ------------- Run sensors on project
+11:29:48.350 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+11:29:48.350 DEBUG: 'C#' skipped because there is no related file in current project
+11:29:48.365 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+11:29:48.365 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+11:29:48.365 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
+11:29:48.365 DEBUG: 'VB.NET' skipped because there is no related file in current project
+11:29:48.365 DEBUG: 'VB.NET Tests Coverage Report Import' skipped because there is no related file in current project
+11:29:48.365 DEBUG: '[Deprecated] VB.NET Integration Tests Coverage Report Import' skipped because there is no related file in current project
+11:29:48.365 DEBUG: 'VB.NET Unit Test Results Import' skipped because there is no related file in current project
+11:29:48.365 DEBUG: 'Java CPD Block Indexer' skipped because there is no related file in current project
+11:29:48.365 DEBUG: Sensors : Analysis Warnings import -> Zero Coverage Sensor
+11:29:48.365 INFO: Sensor Analysis Warnings import [csharp]
+11:29:48.365 INFO: Sensor Analysis Warnings import [csharp] (done) | time=0ms
+11:29:48.365 INFO: Sensor Zero Coverage Sensor
+11:29:48.365 INFO: Sensor Zero Coverage Sensor (done) | time=0ms
+11:29:48.381 INFO: SCM Publisher is disabled
+11:29:48.381 INFO: CPD Executor Calculating CPD for 0 files
+11:29:48.381 INFO: CPD Executor CPD calculation finished (done) | time=0ms
+11:29:48.506 INFO: Analysis report generated in 109ms, dir size=120.9 kB
+11:29:48.553 INFO: Analysis report compressed in 47ms, zip size=14.3 kB
+11:29:48.553 INFO: Analysis report generated in C:\Users\41857\.scannerwork\scanner-report
+11:29:48.553 DEBUG: Upload report
+11:29:48.584 DEBUG: POST 200 http://localhost:9000/api/ce/submit?projectKey=test4 | time=31ms
+11:29:48.600 INFO: Analysis report uploaded in 47ms
+11:29:48.600 DEBUG: Report metadata written to C:\Users\41857\.scannerwork\report-task.txt
+11:29:48.600 INFO: ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=test4
+11:29:48.600 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+11:29:48.600 INFO: More about the report processing at http://localhost:9000/api/ce/task?id=AYjhsAJo-F0MSAvZGZIr
+11:29:48.600 DEBUG: Post-jobs :
+11:29:48.615 INFO: Analysis total time: 7.157 s
+11:29:48.615 INFO: ------------------------------------------------------------------------
+11:29:48.631 INFO: EXECUTION SUCCESS
+11:29:48.631 INFO: ------------------------------------------------------------------------
+11:29:48.631 INFO: Total time: 9.829s
+11:29:48.693 INFO: Final Memory: 16M/57M
+11:29:48.693 INFO: ------------------------------------------------------------------------
